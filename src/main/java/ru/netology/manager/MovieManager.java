@@ -36,9 +36,15 @@ public class MovieManager {
         }
         String[] tmp = new String[resultLength];
         for (int i = 0; i < tmp.length; i++) {
-            tmp[i] = movies[movies.length - 1 -i];
+            tmp[i] = movies[movies.length - 1 - i];
         }
         return tmp;
     }
+
+   // public void findMoreMin() {
+
+   // }
 }
+
+
 
